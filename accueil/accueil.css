@@ -1,0 +1,162 @@
+******************************Slider*******************************/ .carousel {
+    margin-top: 5.5em;
+    font-family: var(--font-family-text);
+    font-size: var(--text-size18);
+
+}
+
+.slide_1 {
+    background-color: var(--background-color3);
+    width: 40%;
+    height: 35%;
+    left: 20%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.slide_2 {
+    background-color: var(--background-color2);
+    width: 40%;
+    height: 35%;
+    top: 55%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide_3 {
+    background-color: var(--background-color1);
+    width: 40%;
+    height: 35%;
+    top: 55%;
+    left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*******************************DONS*******************************/
+.dons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.champ_dons {
+    width: 60%;
+    height: 77px;
+    border: none;
+    text-align: center;
+    background-color: var(--background-color4);
+}
+
+.envoie_dons {
+    color: var(--color-white);
+    background-color: var(--background-color1);
+    width: 40%;
+    height: 77px;
+    border: none;
+}
+
+.envoie_dons:focus-visible,
+.envoie_dons:focus {
+    outline: none;
+    outline-width: 0;
+}
+
+/****************************Informations************************************/
+.infos {
+    margin: 70px 1.37rem;
+    text-align: center;
+    height: 167px;
+    top: 445px;
+    left: 1.68;
+    border-radius: 1.37rem;
+    font-weight: 600;
+}
+
+.btn_infos {
+    width: 140px;
+    height: 2rem;
+    border-radius: 1.37rem;
+    border: solid 2px var(--background-color2);
+    color: var(--background-color2);
+    background-color: var(--color-white);
+    font-size: var(--text-size12);
+    font-weight: 700;
+    line-height: 14px;
+    text-align: center;
+}
+
+/*******************************Sectipn mobile***************************************/
+.sensibilisation,
+.formation {
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: var(--background-color);
+}
+
+.sensibilisation p,
+.soutien p,
+.formation p {
+    font-family: Inria Sans;
+    font-size: var(--text-size10);
+    line-height: 18px;
+    text-align: center;
+    margin: 0 35px 1.56rem 35px;
+}
+
+.sensibilisation img,
+.soutien img,
+.formation img {
+    width: 100%;
+}
+
+
+.newsletter {
+    height: 300px;
+    position: relative;
+
+}
+
+.form_newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 121px;
+    background-color: var(--background-color2);
+    color: var(--color-white);
+    position: absolute;
+    bottom: -30px;
+    left: 25%;
+
+}
+
+.form_newsletter input {
+    margin-top: 8px;
+    background-color: var(--background-color2);
+    border: none;
+    color: var(--color-white);
+    width: 70%;
+    height: 13px;
+    border-bottom: solid 1.5px var(--color-white);
+    font-size: var(--text-size10);
+}
+
+.form_newsletter ::placeholder {
+    color: var(--color-white);
+}
+
+.form_newsletter button {
+    border: solid 1.5px var(--color-white);
+    width: 50%;
+    height: 1.56rem;
+    border-radius: 12px;
+    background-color: var(--background-color2);
+    color: var(--color-white);
+    margin-top: 1.25rem;
+}

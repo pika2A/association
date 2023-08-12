@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/accueil/accueil.css">
+    <link rel="shortcut icon" href="/images/logo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>Un enfant un rayon de sleil</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top header_mobile">
+            <a href="index.html"><img class="logo" src="/images/logo.svg" alt="logo soleil"></a>
+            <h1>Un enfant un rayon de soleil</h1>
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Qui sommes nous?</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" aria-current="page" href="#">Faire un don</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/evenements/evenements.html">Evenements</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </nav>
+
+        <div id="carousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/mere-prepare-sa-petite-fille-ecole.jpg" class="d-block w-100"
+                        alt="enfants moqueurs qui montrent du doigt une petite fille qui pleure">
+                    <div class="carousel-caption d-md-block slide_1">
+                        <p>Reconnaitre les premiers signes</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/gros-plan-portrait-garcon-triste.jpg" class="d-block w-100"
+                        alt="petit garçon isolé qui regarde à travers un store">
+                    <div class="carousel-caption d-md-block slide_2">
+                        <p>Empêcher l’isolement</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/photo-montrant-violence-enfants-ecole.jpg" class="d-block w-100"
+                        alt="salle de classe avec eleves">
+                    <div class="carousel-caption d-md-block slide_3">
+                        <p>Anticiper avant le drame</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="dons">
+            <input class="champ_dons" type="text" placeholder="Montant" required>
+            <button class="envoie_dons" type="submit">Faire un don</button>
+        </div>
+    </header>
+    <main>
+        <section class="infos">
+            <p>Notre mission est d’informer le public, de collecter des fonds, d’éduquer au développement et de faire un
+                travail de plaidoyer</p>
+            <button class="btn_infos" type="button">En savoir plus</button>
+        </section>
+        <section class="sensibilisation">
+            <h2>
+                Sensibilisation et prévention
+            </h2>
+            <p>Notre association de lutte contre le harcèlement scolaire jouent un rôle essentiel dans la
+                sensibilisation et la
+                prévention de ce problème.
+                Nous organisons des campagnes de sensibilisation dans les écoles, les communautés et les médias pour
+                informer sur les
+                conséquences néfastes du harcèlement et encourager les témoins à intervenir. Ces initiatives permettent
+                de briser le
+                silence entourant le harcèlement et d'encourager les victimes à demander de l'aide.</p>
+            <img src="/images/fermez-etudiants-qui-apprennent-ensemble.jpg" alt="">
+        </section>
+        <section class="soutien">
+            <h2> Soutien aux victimes</h2>
+            <p>Notre association offre un soutien précieux aux victimes de harcèlement scolaire. Nous mettons en place
+                des lignes
+                d'écoute téléphonique, des chats en ligne et des groupes de soutien où les victimes peuvent exprimer
+                leurs émotions,
+                partager leurs expériences et trouver un soutien empathique. Ces espaces sécurisés permettent aux
+                victimes de se sentir
+                écoutées, comprises et moins seules face à leur souffrance.</p>
+            <img src="/images/enfants-professeur-education-physique-se-bouchent.jpg"
+                alt="groupe qui se soutien enfants et professeurs">
+        </section>
+        <section class="formation">
+            <h2>Formation des enseignants et des professionnels de l'éducation</h2>
+            <p>Notre association de lutte contre le harcèlement scolaire jouent un rôle essentiel dans la formation des
+                enseignants et
+                des professionnels de l'éducation. Elles organisent des ateliers et des formations pour sensibiliser les
+                acteurs de
+                l'éducation aux signes du harcèlement, aux méthodes d'intervention et à la création d'un climat scolaire
+                positif. Ces
+                formations permettent aux enseignants d'adopter des stratégies efficaces pour prévenir le harcèlement et
+                réagir de
+                manière adéquate lorsqu'il se produit.</p>
+            <img src="/images/femme-affaires-autonome-travaillant-dans-ville.jpg" alt="salle de conférence">
+        </section>
+        <section class="newsletter">
+            <div class="form_newsletter">
+                <h3>Newsletter</h3>
+                <input type="email" name="mail" id="mail" required placeholder="Votre adresse mail">
+                <button type="submit">s'inscrire</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul class="adresse">
+            <li>Un enfant un rayon de lumière</li>
+            <li>12, route de l’espoir</li>
+            <li>20090 AJACCIO Cedex</li>
+        </ul>
+
+        <ul class="politiques">
+            <li>FAQ</li>
+            <li>Politiques de données personnelles</li>
+            <li>Cookies</li>
+        </ul>
+
+        <ul class="contact">
+            <li>Tel: 0607080920</li>
+            <li>Mail: uerl-corse@rayon-de-soleil</li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
